@@ -1,3 +1,8 @@
 .bg-gray {
   background-color: #ECECEC;
 }
+
+.table td,
+.table th {
+  border: none;
+}

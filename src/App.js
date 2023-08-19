@@ -173,7 +173,7 @@ function App() {
                       </td>
                       <td>{user.name}</td>
                       <td>{user.email}</td>
-                      <td>{user.role}</td>
+                      <td>{user.role.charAt(0).toUpperCase() + user.role.slice(1).toLowerCase()}</td>
                       <td>
                         {/* Edit and Delete buttons */}
                         <Stack direction="horizontal" gap={2}>
